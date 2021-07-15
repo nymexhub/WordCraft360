@@ -20,14 +20,14 @@ mysql_select_db ("750") ;
 */
 // ---------------- NNP ------------------------
 
-$link1 = mysql_connect ("localhost", "felipe", "fldbpw486")
+$link1 = mysql_connect ("localhost", "felipe", "")
         or die ("No se puede conectar a MySQL ");
 
 mysql_select_db ("felipe") ;
 
 //
 
-$link2 = mysql_connect ("localhost", "felipe", "fldbpw486")
+$link2 = mysql_connect ("localhost", "felipe", "")
         or die ("No se puede conectar a MySQL ");
 
 mysql_select_db ("felipe") ;
