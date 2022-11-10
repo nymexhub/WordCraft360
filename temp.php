@@ -5,7 +5,7 @@
 <head>
 <title>Write your words</title>
 <link href='/images/favicon.gif' rel='shortcut icon' />
-
+<!-- -->
 
 <link href="/stylesheets/base_packaged.css?1326845290" media="screen" rel="stylesheet" type="text/css" />
 <!--[if IE]><link href="/stylesheets/ie.css?1326845290" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
