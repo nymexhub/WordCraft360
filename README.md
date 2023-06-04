@@ -1,5 +1,4 @@
 # 750Writer
 Word Counter &amp; Toolkit Platform for writers
 # Author
-Felipe Alfonso Gonzalez - f.alfonso@res-ear.ch 
-
+By Computer Science Engineer: Felipe Alfonso Gonzalez / EMail: (f.alfonso@res-ear.ch) / Started : Jan 16, 2005
