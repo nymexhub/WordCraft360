@@ -1,0 +1,35 @@
+* { font-family: SharktoothRegular; color: #333333;}
+h1 { font-size:26px; color: green;  }
+.font { font-size:12px; color: #333333; }
+#counted { font-size:12px; color: #333333; display: block; float: left;   height: 50px; width: 100px; }
+/* fieldset { padding: 500px; height: 500px; } */
+/* div { margin: 5px; height: 500px; float: left; display: block;}*/
+.top {
+display: block; 
+float: left;
+height: 500px;
+width: 30px;
+margin-top: 55px;
+}
+.1 {
+display: block; 
+float: left;
+height: 300px;
+width: 300px;
+margin-bottom: 25px;
+}
+.2 {
+display: block; 
+float: left;
+height: 500px;
+width: 30px;
+margin-top: 25px;
+
+}
+.control {
+/* display: block; */
+ position: absolute;
+ width: auto;
+height: 750px;
+margin-left: 150px;
+}
