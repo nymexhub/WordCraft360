@@ -1,8 +1,8 @@
 <?php 
 /*
-Program for writers developed by Felipe Alfonso Gonzalez
+By Computer Science Engineer: Felipe Alfonso Gonzalez
 email: f.alfonso@res-ear.ch
-(CC) All protected under a licence creative commons
+(CC) All protected under GNU/GPL 
 */
 
 if(isset($_POST['SAVE'])){

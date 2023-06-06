@@ -1,5 +1,9 @@
 <?php 
 /*
+By Computer Science Engineer: Felipe Alfonso Gonzalez
+email: f.alfonso@res-ear.ch
+(CC) All protected under GNU/GPL 
+******************************************************
 MySQL-DB: felipe
 Login: felipe
 
