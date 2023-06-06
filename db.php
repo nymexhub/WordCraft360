@@ -31,14 +31,14 @@ mysql_select_db ("750") ;
 
 
 
-#$link1 = mysql_connect("localhost", "root", "fafarafa")
+#$link1 = mysql_connect("localhost", "root", "")
 #        or die ("No se puede conectar a MySQL ");
 
 #mysql_select_db ("750W") ;
 
 //
 
-#$link2 = mysql_connect("localhost", "root", "fafarafa")
+#$link2 = mysql_connect("localhost", "root", "")
 #        or die ("No se puede conectar a MySQL ");
 
 #mysql_select_db ("750W") ;
