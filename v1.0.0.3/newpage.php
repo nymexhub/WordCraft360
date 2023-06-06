@@ -6,20 +6,11 @@ include("db.php");
 
 
 // if ($_SERVER['REQUEST_METHOD']=="POST"){
-// $sql1="SELECT * FROM `reg_750` order by id desc";
+$sql1="SELECT * FROM `reg_750` order by id desc";
 #ejecuto la query
-// $rs1 = mysql_query ($sql1,$link1) or die ('<br><b>Error!.</b>');
+$rs1 = mysql_query ($sql1,$link1) or die ('<br><b>Error!.</b>');
 
-$sql1 = "SELECT * FROM `reg_750`";
-$rs1 = $link1->query($sql1);
-if (!$rs1) {
-    die("<br><b>Error! " . $link1->error . "</b>");
-}
-
-$row = $rs1->fetch_array();
-
-
-// $row = mysql_fetch_array ($rs1);
+$row = mysql_fetch_array ($rs1);
  
         $i            = $row[0] ;
         $data          = $row[1] ;
@@ -30,6 +21,9 @@ $row = $rs1->fetch_array();
 		
 		// echo $r;
 		 // echo $row[0] ;
+	
+		
+
 
 
 /*
@@ -46,13 +40,8 @@ if (empty($_POST['qs']) OR empty($_POST['id2'])) {
 $fecha = date('l j \of F Y h:i:s A');
 $fecha_t = date('l F \t\h\e jS, Y');
 //$sql2='UPDATE  `reg_750` SET  `data` ="'.$g.'", `date` ="'.$fecha.'", `date_title` = "'$fecha_t'" WHERE  `reg_750`.`id` ="'.$f.'";';
-$sql2 = "INSERT INTO `reg_750` (`id`, `data`, `work_name`, `date`, `activo`, `date_title`) VALUES (NULL, '', '', '".$fecha."', NULL, '".$fecha_t."');";
-
-$rs2 = $link2->query($sql2);
-if (!$rs2) {
-    die("<br><b>Error! " . $link2->error . "</b>");
-}
-
+$sql2="INSERT INTO `reg_750` (`id`, `data`, `work_name`, `date`, `activo`, `date_title`) VALUES (NULL,'', '', '".$fecha."', '', '".$fecha_t."');";
+$rs2 = mysql_query ($sql2,$link2) or die ("<br><b>Error!. ".$sql2."</b>");
 
  // echo " <a href=\"javascript:history.go(-1);\">back</a> ";
   header("Location: ./index.php"); /* Redirect browser */
