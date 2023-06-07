@@ -1,11 +1,11 @@
 <title>Word Counter & Toolkit Platform for writers</title>
-<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.textarea-expander.js"></script>
-<script type="text/javascript" src="js/js-app.js"></script>
-<script type="text/javascript" src="js/app-jquery.js"></script>
-<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
-<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
-<link href='misc/favicon.gif' rel='shortcut icon' />
+<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/jquery.textarea-expander.js"></script>
+<script type="text/javascript" src="../js/js-app.js"></script>
+<script type="text/javascript" src="../js/app-jquery.js"></script>
+<link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
+<link href='../misc/favicon.gif' rel='shortcut icon' />
 
 <?php
 /*
@@ -14,7 +14,7 @@ email: f.alfonso@res-ear.ch
 (CC) All protected under GNU/GPL 
 */
 
-include("db.php");
+include("../config.db.php");
 
 
 /// echo $_POST["id56"];
@@ -46,6 +46,6 @@ if (!$rs2) {
 
 
 // echo " <a href=\"javascript:history.go(-1);\">back</a> ";
-header("Location: ./index.php"); /* Redirect browser */
+header("Location: ../index.php"); /* Redirect browser */
 exit;
 ?>

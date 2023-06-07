@@ -7,7 +7,7 @@ email: f.alfonso@res-ear.ch
 */
 
 
-include("db.php");
+include("../config.db.php");
 
 
 $r = $_POST["id55"];
@@ -63,7 +63,7 @@ if (!$rs2) {
 
 
 // echo " <a href=\"javascript:history.go(-1);\">back</a> ";
-header("Location: ./index.php"); /* Redirect browser */
+header("Location: ../index.php"); /* Redirect browser */
 
 /* Make sure that code below does not get executed when we redirect. */
 // 
