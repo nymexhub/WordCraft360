@@ -3,41 +3,27 @@
 By Computer Science Engineer: Felipe Alfonso Gonzalez
 email: f.alfonso@res-ear.ch
 (CC) All protected under GNU/GPL 
+
+********************
+
+Load the .sql file generated in the folder: 'SQL-Latest-Updated'
+
+********************
 */
 
-/* -------------- local host -----------------
+/* ------
 $link1 = mysql_connect ("localhost", "root", "")
         or die ("No se puede conectar a MySQL ");
 
 mysql_select_db ("750") ;
 
-//
 
-	$link2 = mysql_connect ("localhost", "root", "")
+$link2 = mysql_connect ("localhost", "root", "")
         or die ("No se puede conectar a MySQL ");
 
 mysql_select_db ("750") ;
 */
-// ---------------- NNP ------------------------
 
-// $link1 = mysql_connect ("localhost", "root", "")
-// mysqli_connect("localhost","root","")
-//
-
-
-
-
-#$link1 = mysql_connect("localhost", "root", "")
-#        or die ("No se puede conectar a MySQL ");
-
-#mysql_select_db ("750W") ;
-
-//
-
-#$link2 = mysql_connect("localhost", "root", "")
-#        or die ("No se puede conectar a MySQL ");
-
-#mysql_select_db ("750W") ;
 
 
     $user="root";
@@ -57,8 +43,6 @@ mysql_select_db ("750") ;
         echo "<h3>Conexion Exitosa PHP - MySQL</h3><hr><br>";
     }
 */ 
-    #
-    #
     #
 
     
