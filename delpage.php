@@ -2,13 +2,13 @@
 
 
 <title>Word Counter & Toolkit Platform for writers</title>
-<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="jquery.textarea-expander.js"></script>
-<script type="text/javascript" src="js2.js"></script>
-<script type="text/javascript" src="app-jquery.js"></script>
-<link rel="stylesheet" href="style2.css" type="text/css" charset="utf-8" />
-<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-<link href='favicon.gif' rel='shortcut icon' />
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.textarea-expander.js"></script>
+<script type="text/javascript" src="js/js2.js"></script>
+<script type="text/javascript" src="js/app-jquery.js"></script>
+<link rel="stylesheet" href="css/style2.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+<link href='misc/favicon.gif' rel='shortcut icon' />
 
 <?php
 include("db.php");
