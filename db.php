@@ -45,7 +45,7 @@ mysql_select_db ("750") ;
 
 
     $cons_usuario="root";
-    $cons_contra="fafarafa";
+    $cons_contra="";
     $cons_base_datos="750W";
     $cons_equipo="localhost";
     
