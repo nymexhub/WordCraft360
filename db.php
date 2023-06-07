@@ -3,10 +3,6 @@
 By Computer Science Engineer: Felipe Alfonso Gonzalez
 email: f.alfonso@res-ear.ch
 (CC) All protected under GNU/GPL 
-******************************************************
-MySQL-DB: felipe
-Login: felipe
-
 */
 
 /* -------------- local host -----------------
@@ -31,21 +27,21 @@ mysql_select_db ("750") ;
 
 
 
-#$link1 = mysql_connect("localhost", "root", "fafarafa")
+#$link1 = mysql_connect("localhost", "root", "")
 #        or die ("No se puede conectar a MySQL ");
 
 #mysql_select_db ("750W") ;
 
 //
 
-#$link2 = mysql_connect("localhost", "root", "fafarafa")
+#$link2 = mysql_connect("localhost", "root", "")
 #        or die ("No se puede conectar a MySQL ");
 
 #mysql_select_db ("750W") ;
 
 
     $cons_usuario="root";
-    $cons_contra="fafarafa";
+    $cons_contra="";
     $cons_base_datos="750W";
     $cons_equipo="localhost";
     
@@ -78,7 +74,4 @@ mysql_select_db ("750") ;
     {
         echo "<h3>Conexion Exitosa PHP - MySQL</h3><hr><br>";
     }
-*/ 
-
-
-?>
+*/
