@@ -5,7 +5,7 @@
 <script type="text/javascript" src="../js/app-jquery.js"></script>
 <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
 <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
-<link href='../misc/favicon.gif' rel='shortcut icon' />
+<link href='misc/favicon.ico' rel='shortcut icon' />
 
 <?php
 /*
