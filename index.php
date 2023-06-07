@@ -9,7 +9,7 @@ if (isset($_POST['SAVE'])) {
     die('SAVE= ' . $_POST['SAVE']);
 }
 
-include('db.php');
+include('config.db.php');
 
 $sql1 = "SELECT * FROM reg_750";
 $rs1 = $link1->query($sql1);
@@ -45,7 +45,7 @@ $rs1 = $link1->query($sql1);
             <img src="images/writer.jpg" alt="Writer - Beta" height="auto" width="auto" /><br>
             >>>>>>>>>>>>>>>>>>>>>>>>>>>>
             <div class="font"><a href="index.php">Start</a></div>
-            <form method="POST" action="load.php">
+            <form method="POST" action="src/load.php">
                 <select name="id">
                     <option value="">Select date</option>
                     <?php
@@ -62,7 +62,7 @@ $rs1 = $link1->query($sql1);
             if (empty($_GET['id'])) {
                 echo "You must select a date or add a new page.";
             ?>
-                <form method="POST" action="newpage.php">
+                <form method="POST" action="src/newpage.php">
                     <?php
                     $sql1 = "SELECT * FROM `reg_750` ORDER BY id DESC";
                     $rs1 = $link1->query($sql1);
@@ -72,7 +72,7 @@ $rs1 = $link1->query($sql1);
                     <input type="hidden" name="id55" id="id55" value="<?php echo $id55; ?>">
                     <input type="submit" id="button" value="NEW PAGE" />
                 </form>
-                <form method="POST" action="delpage.php">
+                <form method="POST" action="src/delpage.php">
                     <?php
                     $id56 = isset($row55[0]) ? $row55[0] : '';
                     ?>
@@ -89,7 +89,7 @@ $rs1 = $link1->query($sql1);
             <?php
             } else {
             ?><br>
-                <form method="POST" idd="submit" action="save.php"><?php
+                <form method="POST" idd="submit" action="src/save.php"><?php
                                                                     $r = $_GET["id"];
                                                                     $sql2 = "SELECT * FROM `reg_750` where id='" . $r . "'";
                                                                     $rs2 = $link1->query($sql2);
@@ -134,7 +134,7 @@ $rs1 = $link1->query($sql1);
             var id = document.getElementById("id2").value;
 
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "save.php", true);
+            xhr.open("POST", "src/save.php", true);
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
