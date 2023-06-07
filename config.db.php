@@ -40,13 +40,13 @@ mysql_select_db ("750") ;
 #mysql_select_db ("750W") ;
 
 
-    $cons_usuario="root";
-    $cons_contra="";
-    $cons_base_datos="750W";
-    $cons_equipo="localhost";
+    $user="root";
+    $db_passwd="";
+    $db="750W";
+    $host="localhost";
     
     $link1 = 
-    mysqli_connect($cons_equipo,$cons_usuario,$cons_contra,$cons_base_datos);
+    mysqli_connect($host,$user,$db_passwd,$db);
    /*
     if(!$link1)
     {
@@ -63,7 +63,7 @@ mysql_select_db ("750") ;
 
     
     $link2 = 
-    mysqli_connect($cons_equipo,$cons_usuario,$cons_contra,$cons_base_datos);
+    mysqli_connect($host,$user,$db_passwd,$db);
    
    /* 
     if(!$link2)
@@ -74,6 +74,5 @@ mysql_select_db ("750") ;
     {
         echo "<h3>Conexion Exitosa PHP - MySQL</h3><hr><br>";
     }
-    */
+*/
 ?>
-
