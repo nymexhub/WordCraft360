@@ -1,4 +1,12 @@
 <?php
+
+/*
+By Computer Science Engineer: Felipe Alfonso Gonzalez
+email: f.alfonso@res-ear.ch
+(CC) All protected under GNU/GPL 
+*/
+
+
 if (empty($_POST['qs']) || empty($_POST['id2'])) {
     echo "You must select a work.";
     echo " <a href=\"javascript:history.go(-1);\">back</a> ";
