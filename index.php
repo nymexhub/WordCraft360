@@ -21,9 +21,9 @@ $rs1 = $link1->query($sql1);
     <title>Word Counter & Toolkit Platform for writers</title>
     <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.textarea-expander.js"></script>
-    <script type="text/javascript" src="js/js2.js"></script>
+    <script type="text/javascript" src="js/js-app.js"></script>
     <script type="text/javascript" src="js/app-jquery.js"></script>
-    <link rel="stylesheet" href="css/style2.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
     <link href='misc/favicon.gif' rel='shortcut icon' />
 </head>
