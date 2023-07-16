@@ -1,4 +1,4 @@
-# 750Writer
+# WordCraft360
 Word Counter & Toolkit Platform for Writers: Inspired by the site 750words.com. This is a reverse-engineered version, completely Open Source.
 
 
