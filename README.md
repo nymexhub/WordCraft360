@@ -1,4 +1,6 @@
-# 🚀 WordCraft360 - The Ultimate Writing Toolkit 📝
+# 🚀 WordCraft360 📝
+
+#### The Ultimate Writing Toolkit
 
 Welcome to WordCraft360, the ultimate Writing Toolkit designed to elevate your writing experience to new heights. Inspired by the minimalist elegance of 750words.com, WordCraft360 offers a sleek and visually appealing interface with carefully selected fonts that are easy on the eyes. ✨🖋️
 
@@ -35,7 +37,7 @@ We understand that font aesthetics are crucial to your writing environment. Word
 
 Experience the writing revolution with WordCraft360 today. Unleash your creativity, stay organized, and enjoy the art of writing with a tool designed exclusively for writers like you. 🌟🚀
 
-## Author
+#### Author
 WordCraft360 is created by Felipe Alfonso Gonzalez, a Computer Science Engineer.
 Contact: EMail - f.alfonso@res-ear.ch
 
