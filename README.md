@@ -10,8 +10,8 @@ Welcome to WordCraft360, the ultimate Writing Toolkit designed to elevate your w
 ![PHP](https://img.shields.io/badge/PHP-7.x-blue?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-blue?logo=mysql)
 
-![Vim](https://img.shields.io/badge/--019733?logo=vim)(https://www.vim.org/)
-![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff) (https://code.visualstudio.com/)
+![Vim](https://img.shields.io/badge/--019733?logo=vim)
+![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff) 
 
 #### Features:
 
