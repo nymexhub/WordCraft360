@@ -6,16 +6,17 @@ Welcome to WordCraft360, the ultimate Writing Toolkit designed to elevate your w
 
 WordCraft360 is not just a writing tool; it's a dynamic platform designed to nurture creativity, encourage creatitvy daily, for developers, and inspire growth. Whether you're a seasoned wordsmith or a novice writer, WordCraft360 is for ypu. ✨🖋️
 
+
 ![Version](https://img.shields.io/github/release/NymexData/WordCraft360.svg?style=flat&color=blue)
 [![Open Source](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ![PHP](https://img.shields.io/badge/PHP-7.x-blue?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-blue?logo=mysql)
 
 ![Vim](https://img.shields.io/badge/--019733?logo=vim)
 ![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff) 
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 #### Features:
 
