@@ -18,6 +18,12 @@ WordCraft360 is not just a writing tool; it's a dynamic platform designed to nur
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
+#### Screenshots
+
+[![View Screenshots](https://img.shields.io/badge/View-Screenshots-blue)](#)
+
+![Screenshot of the application interface](./screenshots/sshot-2023.jpg)
+
 #### Features 🚀:
 
 Real-time Word Count 📈
