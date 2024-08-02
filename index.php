@@ -11,7 +11,7 @@ if (isset($_POST['SAVE'])) {
 
 include('config.db.php');
 
-$sql1 = "SELECT * FROM reg_750";
+$sql1 = "SELECT * FROM reg_750 ORDER BY id DESC";
 $rs1 = $link1->query($sql1);
 
 ?>
