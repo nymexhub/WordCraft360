@@ -54,7 +54,7 @@ if (empty($_POST['qs']) OR empty($_POST['id2'])) {
 $fecha = date('l j \of F Y h:i:s A');
 $fecha_t = date('l F \t\h\e jS, Y');
 //$sql2='UPDATE  `reg_750` SET  `data` ="'.$g.'", `date` ="'.$fecha.'", `date_title` = "'$fecha_t'" WHERE  `reg_750`.`id` ="'.$f.'";';
-$sql2 = "INSERT INTO `reg_750` (`id`, `data`, `work_name`, `date`, `activo`, `date_title`) VALUES (NULL, '', '', '" . $fecha . "', NULL, '" . $fecha_t . "');";
+$sql2 = "INSERT INTO `reg_750` (`id`, `data`, `work_name`, `date`, `activo`, `date_title`) VALUES (NULL, '', '', '" . $fecha . "', '0', '" . $fecha_t . "');";
 
 $rs2 = $link2->query($sql2);
 if (!$rs2) {
