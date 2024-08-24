@@ -13,8 +13,8 @@ WordCraft360 is not just a writing tool; it's a dynamic platform designed to nur
 ![PHP](https://img.shields.io/badge/PHP-7.x-blue?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-blue?logo=mysql)
 
-![Vim](https://img.shields.io/badge/--019733?logo=vim)
-![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff) 
+[![Vim Powered](https://img.shields.io/badge/Vim-Powered-%2311AB00.svg?style=plastic&logo=vim&logoColor=white)](https://www.vim.org)
+[![Visual Studio Code](https://badgen.net/badge/icon/Visual%20Studio%20Code?icon=visualstudio&label=)](https://code.visualstudio.com/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
