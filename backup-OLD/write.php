@@ -1,7 +1,7 @@
 <?
 /*
 Program for writers developed by Felipe Alfonso Gonzalez
-email: f.alfonso.go@gmail.com
+email: f.alfonso@res-ear.ch
 (CC) All protected under a licence creative commons
 */
 
